@@ -7,19 +7,58 @@ The avahi package includes 2 service definitions "out-of-the-box":
 
 ## our additional definitions ##
 So far, we've added avahi ".service" (definition) files for the following services:
-- domain.service:			_domain._udp		PORT 53			Domain Name Service server
-- epmd-tcp.service:			_epmd._tcp			PORT 4369		Erlang Port Mapper daemon
-- epmd-udp.service:			_epmd._udp			PORT 4369		Erlang Port Mapper daemon
-- kpasswd5-tcp.service:		_kpasswd5._tcp		PORT 464		Kerberos Password daemon
-- kpasswd5-udp.service:		_kpasswd5._udp		PORT 464		Kerberos Password daemon
-- ldap-tcp.service:			_ldap._tcp			PORT 389		LDAP server
-- ldap-udp.service:			_ldap._udp			PORT 389		LDAP server
-- memcached-tcp.service:	_memcached._tcp		PORT 11211		memcache daemon
-- memcached-udp.service:	_memcached._udp		PORT 11211		memcache daemon
-- ntp.service				_ntp._udp			PORT 123		Network Time Protocol server
-- samba.service				_smb._tcp			PORT 139		Server Message Block daemon
-- sunrpc-tcp.service		_sunrpc._tcp		PORT 111		SUN RPC Port Mapper daemon
-- sunrpc-udp.service		_sunrpc._udp		PORT 111		SUN RPC Port Mapper daemon
+- _domain.service:_
+	- **\_domain.\_udp**
+	- PORT **53**
+	- Domain Name Service server
+- _epmd-tcp.service:_
+	- **\_epmd.\_tcp**
+	- PORT **4369**
+	- Erlang Port Mapper daemon
+- _epmd-udp.service:_
+	- **\_epmd.\_udp**
+	- PORT **4369**
+	- Erlang Port Mapper daemon
+- _kpasswd5-tcp.service:_
+	- **\_kpasswd5.\_tcp**
+	- PORT **464**
+	- Kerberos Password daemon
+- _kpasswd5-udp.service:_
+	- **\_kpasswd5.\_udp**
+	- PORT **464**
+	- Kerberos Password daemon
+- _ldap-tcp.service:_
+	- **\_ldap.\_tcp**
+	- PORT **389**
+	- LDAP server
+- _ldap-udp.service:_
+	- **\_ldap.\_udp**
+	- PORT **389**
+	- LDAP server
+- _memcached-tcp.service:_
+	- **\_memcached.\_tcp**
+	- PORT **11211**
+	- memcache daemon
+- _memcached-udp.service:_
+	- **\_memcached.\_udp**
+	- PORT **11211**
+	- memcache daemon
+- _ntp.service:_
+	- **\_ntp.\_udp**
+	- PORT **123**
+	- Network Time Protocol server
+- _samba.service:_
+	- **\_smb.\_tcp**
+	- PORT **139**
+	- Server Message Block daemon
+- _sunrpc-tcp.service:_
+	- **\_sunrpc.\_tcp**
+	- PORT **111**
+	- SUN RPC Port Mapper daemon
+- _sunrpc-udp.service:_
+	- **\_sunrpc.\_udp**
+	- PORT **111**
+	- SUN RPC Port Mapper daemon
 
 ## INSTALLATION ##
 Obviously, installation procedure will differ by the distribution of Linux/UNIX running on your
