@@ -2,8 +2,8 @@
 
 ## avahi defaults ##
 The avahi package includes 2 service definitions "out-of-the-box":
-- ssh.service
-- sftp-ssh.service
+- _ssh.service_
+- _sftp-ssh.service_
 
 ## our additional definitions ##
 So far, we've added avahi ".service" (definition) files for the following services:
